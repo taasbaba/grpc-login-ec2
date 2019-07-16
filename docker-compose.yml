@@ -1,0 +1,17 @@
+version: '2.4'
+services:
+  envoy:
+    build:
+      context: envoy
+    ports:
+      - 8080:8080
+    depends_on:
+      - auth
+  auth:
+    build: .
+  auth-vue:
+    build: auth-vue
+    ports:
+      - 888:80
+    depends_on:
+      - auth

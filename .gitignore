@@ -1,0 +1,21 @@
+.DS_Store
+auth-vue/node_modules
+auth-vue/dist
+
+# local env files
+auth-vue/.env.local
+auth-vue/.env.*.local
+
+# Log files
+auth-vue/npm-debug.log*
+auth-vue/yarn-debug.log*
+auth-vue/yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

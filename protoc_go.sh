@@ -1,0 +1,1 @@
+protoc -I=./ --proto_path=api/proto/ --go_out=plugins=grpc:server/internal/api/v1 auth.proto
